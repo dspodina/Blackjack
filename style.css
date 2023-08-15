@@ -1,29 +1,52 @@
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
-    background-image: url("images/table.png");
-    background-size: cover;
-    font-weight: bold;
-    color: white;
-    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #034C3C;
 }
 
 h1 {
-    color: goldenrod;
+    color: #F2AF29;
+    text-shadow: 3px 3px #558ABB;
+    font-size: 54px;
 }
 
 #message-el {
     font-style: italic;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
+#inner-text {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #F4F4F6;
+    padding: 0 40px 20px 40px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
 button {
-    color: #016f32;
+    color: black;
     width: 150px;
-    background: goldenrod;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    background: #F2AF29;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-weight: bold;
     border: none;
     border-radius: 2px;
     margin-bottom: 2px;
-    margin-top: 2px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+button:hover {
+    background-color: #F2A918;
 }

@@ -32,7 +32,7 @@ function startOrNewGame() {
     startGame();
 
   } else {
-        startGameBtn.textContent = "Start Game";
+        startGameBtn.textContent = "Start the game";
         newCardBtn.style.display = "none"; 
         innerTextEl.style.display = "none"; 
         resetGame();
